@@ -1,0 +1,185 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+.text-primary{
+    color: #005555 !important;
+}
+.bg-primary{
+    background-color: #005555 !important;
+}
+
+.heading-1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.heading-2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.heading-3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.heading-4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.heading-5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.heading-6{
+    font-size: 18px;
+    font-weight: 700;
+}
+.text-dark-primary{
+    color: #1D2433;
+}
+.text-dark-secondary{
+    color:#4A505C;
+}
+.text-dark-disabled{
+    color:#6C717A;
+}
+.text-light-secondary{
+    color:#C1C2C4;
+}
+.fw-7{
+    font-weight: 700 !important;
+}
+.fw-4{
+    font-weight: 400 !important;
+}
+.fw-5{
+    font-weight: 500 !important;
+}
+.fw-6{
+    font-weight: 600 !important;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.btn-primary{
+    background-color: #005555 !important;
+    color: #fff;
+}
+.btn-outline-primary{
+    background-color: #fff !important;
+    color: #005555;
+    border-color: #005555;
+}
+.category-badge span{
+    color:#222325;
+    font-weight: 400;
+    background-color: #3A3541;
+    fill-opacity: 8%;
+}
+
+#search {
+    position: relative;
+}
+#search .form-control {
+    padding-right: 2.5rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+#search .icon-placeholder {
+    position: absolute;
+    left: 20px;
+    top: 48%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.star{
+    color:#3A3541;
+    opacity: 54%;
+}
+.card-bg-1{
+    background-color: #FDF0CC;
+}
+.card-bg-2{
+    background-color: #E5EEEE;
+}
+.number{
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    color: #4A505C;
+}
+@media (min-width:768px){
+    .wrapper{
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+}
+@media (max-width: 768px) {
+    .container-fluid{
+        justify-content: center;
+    }
+    .login-text h4{
+        margin-top: 24px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .login-text p{
+        font-size: 11px !important;
+        font-weight: 400;
+    }
+    form label{
+        font-size: 12px !important;
+        font-weight: 600 !important;
+    }
+    .input-group input{
+        font-size: 11px !important;
+        font-weight: 400 !important;
+    }
+    .register-text .col-7 p{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .register-text .col-7 span{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .register-text .col-5 p{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .btn-login{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .sub-text{
+        font-size: 11px;
+        font-weight: 400;
+    }
+    .all-news .col-8 .fs-14{
+        font-weight: 500;
+        font-size: 11px;
+        color: #4A505C;
+    }
+    .all-news .col-8 .name{
+        font-weight: 500 !important;
+        font-size: 11px !important;
+        color: #4A505C !important;
+    }
+    .all-news .col-8 .badge{
+        font-weight: 500;
+        font-size: 10px;
+        color: #1D2433;
+    }
+    .all-news .col-8 .fs-18{
+        color:#1D2433;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+
+}
